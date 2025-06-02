@@ -2915,6 +2915,63 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@inversifyjs/common@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@inversifyjs/common@npm:1.5.0"
+  checksum: 3f4e484e45522684c0565399a4e4dc3fbd24133ee2405e6b8970e3188e3073765ae73331f3b0dd37a6df995c4537568650bcfec37ef386dc2dfdbdc89b839d80
+  languageName: node
+  linkType: hard
+
+"@inversifyjs/container@npm:1.10.1":
+  version: 1.10.1
+  resolution: "@inversifyjs/container@npm:1.10.1"
+  dependencies:
+    "@inversifyjs/common": "npm:1.5.0"
+    "@inversifyjs/core": "npm:5.3.1"
+    "@inversifyjs/plugin": "npm:0.2.0"
+    "@inversifyjs/reflect-metadata-utils": "npm:1.1.0"
+  peerDependencies:
+    reflect-metadata: ~0.2.2
+  checksum: 5395acd236d2814c667f28ec517287642c816e8b7a54383a4a3a84ea308774804f348d5ba42c330309f92cf758cca32391ef158ad0460ee7cd09574cb92940d0
+  languageName: node
+  linkType: hard
+
+"@inversifyjs/core@npm:5.3.1":
+  version: 5.3.1
+  resolution: "@inversifyjs/core@npm:5.3.1"
+  dependencies:
+    "@inversifyjs/common": "npm:1.5.0"
+    "@inversifyjs/prototype-utils": "npm:0.1.0"
+    "@inversifyjs/reflect-metadata-utils": "npm:1.1.0"
+  checksum: bba914e0d9d81894970fbea0657da4fd9f4515273a5207222827bd9d85079a801a30a44bc46d97718a72a61940c6a0fb27d550394ffa7d409afdaeb1dbf46504
+  languageName: node
+  linkType: hard
+
+"@inversifyjs/plugin@npm:0.2.0":
+  version: 0.2.0
+  resolution: "@inversifyjs/plugin@npm:0.2.0"
+  checksum: ee7897ae3ee17d7dff02781b00eadd942e79f9f8bcd4e42190b9d899945ca3765b5c97bdfca5553ad14c0fc7286de3ada2d11e43dcc26c999f7f856727db65e8
+  languageName: node
+  linkType: hard
+
+"@inversifyjs/prototype-utils@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@inversifyjs/prototype-utils@npm:0.1.0"
+  dependencies:
+    "@inversifyjs/common": "npm:1.5.0"
+  checksum: 726a301a7f1a588de2eda8a8ffcc808bdc91897098e1ec17a7e343009e023a22dce102684bd3e99df22b259c2139b35e41fe66ac87c26ded3bd77649797d1b5d
+  languageName: node
+  linkType: hard
+
+"@inversifyjs/reflect-metadata-utils@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@inversifyjs/reflect-metadata-utils@npm:1.1.0"
+  peerDependencies:
+    reflect-metadata: 0.2.2
+  checksum: b543e34a0f70133239a5634635ec9567f8fe8c7f8501c01acdeb49c96777d1c6d0d680dfad5c67b4b823d1f4750f890621190da15486c9d814d698fff6bfef95
+  languageName: node
+  linkType: hard
+
 "@ioredis/commands@npm:^1.1.1":
   version: 1.2.0
   resolution: "@ioredis/commands@npm:1.2.0"
@@ -5727,7 +5784,7 @@ __metadata:
     dotenv: "npm:^16.0.1"
     eslint: "npm:^8.39.0"
     eslint-plugin-prettier: "npm:^5.0.0"
-    inversify: "npm:^6.0.1"
+    inversify: "npm:^7.5.2"
     ioredis: "npm:^5.2.4"
     jest: "npm:^29.5.0"
     mixpanel: "npm:^0.17.0"
@@ -5773,7 +5830,7 @@ __metadata:
     express: "npm:^4.18.2"
     express-robots-txt: "npm:^1.0.0"
     helmet: "npm:^7.0.0"
-    inversify: "npm:^6.0.1"
+    inversify: "npm:^7.5.2"
     inversify-express-utils: "npm:^6.4.3"
     ioredis: "npm:^5.2.4"
     jest: "npm:^29.5.0"
@@ -5851,7 +5908,7 @@ __metadata:
     eslint: "npm:^8.39.0"
     eslint-plugin-prettier: "npm:^5.0.0"
     express: "npm:^4.18.2"
-    inversify: "npm:^6.0.1"
+    inversify: "npm:^7.5.2"
     inversify-express-utils: "npm:^6.4.3"
     ioredis: "npm:^5.2.4"
     jest: "npm:^29.5.0"
@@ -6011,7 +6068,7 @@ __metadata:
     express-robots-txt: "npm:^1.0.0"
     express-winston: "npm:^4.0.5"
     helmet: "npm:^7.0.0"
-    inversify: "npm:^6.0.1"
+    inversify: "npm:^7.5.2"
     inversify-express-utils: "npm:^6.4.3"
     ioredis: "npm:^5.2.4"
     jest: "npm:^29.5.0"
@@ -6063,7 +6120,7 @@ __metadata:
     express: "npm:^4.18.2"
     express-robots-txt: "npm:^1.0.0"
     helmet: "npm:^7.0.0"
-    inversify: "npm:^6.0.1"
+    inversify: "npm:^7.5.2"
     inversify-express-utils: "npm:^6.4.3"
     prettier: "npm:^3.0.3"
     reflect-metadata: "npm:^0.2.1"
@@ -6143,7 +6200,7 @@ __metadata:
     eslint: "npm:^8.39.0"
     eslint-plugin-prettier: "npm:^5.0.0"
     express: "npm:^4.18.2"
-    inversify: "npm:^6.0.1"
+    inversify: "npm:^7.5.2"
     inversify-express-utils: "npm:^6.4.3"
     ioredis: "npm:^5.3.2"
     jest: "npm:^29.5.0"
@@ -6178,7 +6235,7 @@ __metadata:
     dotenv: "npm:^16.0.1"
     eslint: "npm:^8.39.0"
     eslint-plugin-prettier: "npm:^5.0.0"
-    inversify: "npm:^6.0.1"
+    inversify: "npm:^7.5.2"
     ioredis: "npm:^5.2.4"
     jest: "npm:^29.5.0"
     mysql2: "npm:^3.9.7"
@@ -6321,7 +6378,7 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.0.0"
     express: "npm:^4.18.2"
     helmet: "npm:^7.0.0"
-    inversify: "npm:^6.0.1"
+    inversify: "npm:^7.5.2"
     inversify-express-utils: "npm:^6.4.3"
     ioredis: "npm:^5.3.2"
     jest: "npm:^29.5.0"
@@ -6397,7 +6454,7 @@ __metadata:
     eslint: "npm:^8.39.0"
     eslint-plugin-prettier: "npm:^5.0.0"
     express: "npm:^4.18.2"
-    inversify: "npm:^6.0.1"
+    inversify: "npm:^7.5.2"
     inversify-express-utils: "npm:^6.4.3"
     ioredis: "npm:^5.2.4"
     jest: "npm:^29.5.0"
@@ -10445,6 +10502,19 @@ __metadata:
   version: 6.0.1
   resolution: "inversify@npm:6.0.1"
   checksum: 9563eaccdff13c6d7c309ececd29e30f63d401f42e448f1a9350d3a141273b98835b658afb824f1ef2d59d397e64c00661a0a6d81f226b7a02c48f37e90f96e6
+  languageName: node
+  linkType: hard
+
+"inversify@npm:^7.5.2":
+  version: 7.5.2
+  resolution: "inversify@npm:7.5.2"
+  dependencies:
+    "@inversifyjs/common": "npm:1.5.0"
+    "@inversifyjs/container": "npm:1.10.1"
+    "@inversifyjs/core": "npm:5.3.1"
+  peerDependencies:
+    reflect-metadata: ~0.2.2
+  checksum: c5d03121e944537e6e9a718272218df6cf214e4b043f76ffcda09fe9a032fc7849b662dfd8383775fba07046ebfb9980a6c74366a51aed7cd175b8aba665d64f
   languageName: node
   linkType: hard
 
