@@ -76,7 +76,7 @@
     "reflect-metadata": "^0.2.1",
     "sqlite3": "^5.1.6",
     "typeorm": "^0.3.17",
-    "ua-parser-js": "^1.0.35",
+    "ua-parser-js": "^2.0.5",
     "uuid": "^9.0.0",
     "winston": "^3.8.1"
   },
